@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>Home</title>
+</head>
+<style>
+body {
+    background-image: url(https://i.pinimg.com/1200x/35/9c/a1/359ca16c6bc8a116f23693401535d41f.jpg);
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana;
+    text-align: center;
+}
+img {
+     width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}
+h1 {
+color: #8B1E2D;
+background-color: #457B9D;
+border-radius: 25px;
+border-style: dashed;
+}
+h2 {
+    color: #8B1E2D;
+    background-color: #457B9D;
+    border-radius: 25px;
+    border-style: dashed;
+}
+iframe {
+border: 5px solid #F4D35E;
+border-radius: 15px;
+}
+button {
+padding: 10px 20px;
+margin: 5px;
+background-color: #457B9D;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+font-family: Verdana;   
+}
+button:hover {
+background-color: #F4D35E;
+}
+p {
+    color: #8B1E2D;
+    font-family: Verdana;
+    font-size: 21px;
+}
+</style>
+<body>
+
+<!-- colors: red:8B1E2D, yellow:F4D35E, blue:457B9D-->
+
+    <h1>Welcome to our Home Page!</h1>
+<h2>Where Every Island Tells a Story </h2>
+    
+
+<p>Mabuhay! Welcome to the Philippines, an archipelago of over 7,600 islands where stunning natural wonders meet genuine, heartfelt personality.</p>
+<p>Whether you are chasing world-famous white-sand beaches in Boracay, diving into crystal-clear lagoons in Palawan, 
+    or exploring centuries-old heritage sites and emerald rice terraces in Luzon, there is an unforgettable adventure waiting at every turn. 
+    Beyond the breathtaking landscapes, you will find vibrant festivals, rich flavors from savory adobo to sweet halo-halo</p>
+<p>Come for the paradise, stay for the people, and discover why every visit feels like coming home.</p>
+
+    <script>
+ 
+
+document.writeln("<h1>Featured Destinations:</h1>");
+
+document.writeln("<iframe id='googlemap'src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7723.6422232225505!2d121.02083579100047!3d14.55222021257868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c91b3ef40b79%3A0x23de027bdc503800!2sGlorietta!5e0!3m2!1sen!2sph!4v1793932810360!5m2!1sen!2sph' width='600' height='400'></iframe>");
+
+document.writeln("<br><br>");
+
+document.writeln("<button onclick=\"document.getElementById('googlemap').src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31224.598244035406!2d121.90662946056722!3d11.969324381490669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a53c2f324b4ee7%3A0xa738e81e5e6dda36!2sBoracay!5e0!3m2!1sen!2sph!4v1794452442908!5m2!1sen!2sph'\">BORACAY</button>");
+
+document.writeln("<button onclick=\"document.getElementById('googlemap').src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2012096.032263719!2d117.79054593680124!3d9.944351854430987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b5bce750b99e45%3A0xdfc65f6c0c8d3beb!2sPalawan!5e0!3m2!1sen!2sph!4v1794452503033!5m2!1sen!2sph'\">PALAWAN</button>");
+
+document.writeln("<button onclick=\"document.getElementById('googlemap').src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1913.6405033197173!2d120.59270421553204!3d16.410548766329217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a16998ef8289%3A0xd18a33a9e621bcf2!2sBurnham%20Park!5e0!3m2!1sen!2sph!4v1793933144735!5m2!1sen!2sph'\">BURNHAM PARK</button>");
+
+document.writeln("<button onclick=\"document.getElementById('googlemap').src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7722.346360325108!2d120.969246644803!3d14.589205726513466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca3d1375e1fb%3A0x49ebfa658c0ba08!2sIntramuros%2C%20Manila%2C%201002%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1794452547723!5m2!1sen!2sph'\">INTRAMUROS, MANILA</button>");
+
+
+    </script>
+
+</body>
+</html>
